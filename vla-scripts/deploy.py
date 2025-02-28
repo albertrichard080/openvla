@@ -44,6 +44,7 @@ import draccus
 import torch
 import uvicorn
 from fastapi import FastAPI
+from fastapi_socketio import SocketManager
 from fastapi.responses import JSONResponse
 from PIL import Image
 from transformers import AutoModelForVision2Seq, AutoProcessor
